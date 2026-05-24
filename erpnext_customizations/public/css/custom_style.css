@@ -1,0 +1,13 @@
+/* Custom Stylesheet to match AstraXK ERP Theme and localize styling */
+
+/* Hide the Help dropdown button and icon in the top navbar */
+.dropdown-help,
+.navbar .nav-item[data-label="Help"],
+.navbar [data-label="Help"] {
+	display: none !important;
+}
+
+/* Hide the Help menu option in the sidebar header app switcher menu */
+.dropdown-menu-item[data-name="help"] {
+	display: none !important;
+}

@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/erpnext_customizations/css/erpnext_customizations.css"
+app_include_css = "/assets/erpnext_customizations/css/custom_style.css"
 # app_include_js = "/assets/erpnext_customizations/js/erpnext_customizations.js"
 
 # include js, css files in header of web template
@@ -86,7 +86,8 @@ app_license = "mit"
 # ------------
 
 # before_install = "erpnext_customizations.install.before_install"
-# after_install = "erpnext_customizations.install.after_install"
+after_install = "erpnext_customizations.setup.remove_help_dropdown"
+after_migrate = ["erpnext_customizations.setup.remove_help_dropdown"]
 
 # Uninstallation
 # ------------
