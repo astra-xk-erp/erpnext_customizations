@@ -4,6 +4,7 @@ app_publisher = "Astra KS"
 app_description = "Custom features for ERPNext"
 app_email = "artansalihaj@outlook.com"
 app_license = "mit"
+app_logo_url = "/assets/erpnext_customizations/images/astra-logo.jpg"
 
 # Apps
 # ------------------
@@ -256,4 +257,9 @@ after_migrate = ["erpnext_customizations.setup.remove_help_dropdown"]
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
+
+# File Storage Overrides
+# ----------------------
+write_file = "erpnext_customizations.storage.write_file_to_r2"
+delete_file_data_content = "erpnext_customizations.storage.delete_file_from_r2"
 
