@@ -1671,7 +1671,7 @@ Compact Item Print,Printimi kompakt i artikullit
 Companies,Kompanitë
 Company,Kompania
 Company Abbreviation,Shkurtesa e kompanisë
-Company Abbreviation (requires ERPNext to be installed),Shkurtesa e kompanisë (kërkon që të instalohet ERPNext)
+Company Abbreviation (requires ERPNext to be installed),Shkurtesa e kompanisë (kërkon që të instalohet AstraXK)
 Company Abbreviation cannot have more than 5 characters,Shkurtesa e kompanisë nuk mund të ketë më shumë se 5 karaktere
 Company Account,Llogaria e Kompanisë
 Company Account is mandatory,Llogaria e kompanisë është e detyrueshme
@@ -2483,7 +2483,7 @@ Disable Serial No And Batch Selector,Çaktivizo përzgjedhësin e numrit serial 
 Disable Transaction Threshold,Çaktivizo pragun e transaksionit
 Disable last purchase rate,Çaktivizo normën e blerjes së fundit
 Disable template to prevent use in reports,Çaktivizo shabllonin për të parandaluar përdorimin në raporte
-Disabled,I paaftë
+Disabled,I çaktivizuar
 Disabled Account Selected,Është zgjedhur një llogari e çaktivizuar
 Disabled Warehouse {0} cannot be used for this transaction.,Magazina me aftësi të kufizuara {0} nuk mund të përdoret për këtë transaksion.
 Disabled items cannot be selected in any transaction.,Artikujt e çaktivizuar nuk mund të zgjidhen në asnjë transaksion.
@@ -2668,8 +2668,8 @@ EAN,EAN
 EAN-13,EAN-13
 EAN-8,EAN-8
 EDI,EDI
-ERPNext Integrations,Integrimet ERPNext
-ERPNext User ID,ID-ja e përdoruesit ERPNext
+ERPNext Integrations,Integrimet AstraXK
+ERPNext User ID,ID-ja e përdoruesit AstraXK
 ERPNext will make a stock ledger entry for each transaction of this item. Keep unchecked for non-stock or service items.,ERPNext do të bëjë një regjistrim në librin e stokut për çdo transaksion të këtij artikulli. Mbajeni të pakontrolluar për artikuj që nuk kanë stoqe ose shërbime.
 Each Transaction,Çdo transaksion
 Earliest,Më e hershme
@@ -3186,8 +3186,8 @@ Formula or Account Filter,Formula ose filtri i llogarisë
 Forum Activity,Aktiviteti i Forumit
 Forum Posts,Postimet e Forumit
 Forum URL,URL e forumit
-Frappe School,Shkolla Frappe
-Frappe Support,Mbështetje Frappe
+Frappe School,Shkolla AstraXK
+Frappe Support,Mbështetje AstraXK
 Free Item,Artikull falas
 Free Item Rate,Çmimi i artikullit falas
 Free item code is not selected,Kodi i artikullit falas nuk është zgjedhur
@@ -3573,14 +3573,14 @@ If this is unchecked Journal Entries will be saved in a Draft state and will hav
 "If this is unchecked, direct GL entries will be created to book deferred revenue or expense","Nëse kjo nuk është e zgjedhur, do të krijohen hyrje të drejtpërdrejta GL për të rezervuar të ardhurat ose shpenzimet e shtyra"
 If this is undesirable please cancel the corresponding Payment Entry.,"Nëse kjo është e padëshirueshme, ju lutemi anuloni hyrjen përkatëse të pagesës."
 "If this item has variants, then it cannot be selected in sales orders etc.","Nëse ky artikull ka variante, atëherë nuk mund të zgjidhet në porositë e shitjes etj."
-"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master.","Nëse ky opsion është konfiguruar 'Po', ERPNext do t'ju pengojë të krijoni një faturë ose faturë blerjeje pa krijuar më parë një urdhër blerje. Ky konfigurim mund të anashkalohet për një furnizues të caktuar duke aktivizuar kutinë e kontrollit ""Lejo krijimin e faturës së blerjes pa porosi blerjeje"" në masterin e furnizuesit."
-"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master.","Nëse ky opsion është konfiguruar 'Po', ERPNext do t'ju pengojë të krijoni një faturë blerjeje pa krijuar më parë një faturë blerjeje. Ky konfigurim mund të anashkalohet për një furnizues të caktuar duke aktivizuar kutinë e kontrollit ""Lejo krijimin e faturës së blerjes pa faturë blerjeje"" në masterin e furnizuesit."
+"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master.","Nëse ky opsion është konfiguruar 'Po', AstraXK do t'ju pengojë të krijoni një faturë ose faturë blerjeje pa krijuar më parë një urdhër blerje. Ky konfigurim mund të anashkalohet për një furnizues të caktuar duke aktivizuar kutinë e kontrollit ""Lejo krijimin e faturës së blerjes pa porosi blerjeje"" në masterin e furnizuesit."
+"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master.","Nëse ky opsion është konfiguruar 'Po', AstraXK do t'ju pengojë të krijoni një faturë blerjeje pa krijuar më parë një faturë blerjeje. Ky konfigurim mund të anashkalohet për një furnizues të caktuar duke aktivizuar kutinë e kontrollit ""Lejo krijimin e faturës së blerjes pa faturë blerjeje"" në masterin e furnizuesit."
 "If ticked, multiple materials can be used for a single Work Order. This is useful if one or more time consuming products are being manufactured.","Nëse shënohet, shumë materiale mund të përdoren për një urdhër të vetëm pune. Kjo është e dobishme nëse prodhohen një ose më shumë produkte që konsumojnë kohë."
 "If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials.","Nëse shënohet, kostoja e BOM do të përditësohet automatikisht bazuar në Norma e Vlerësimit / Norma e Listës së Çmimeve / Norma e fundit e blerjes së lëndëve të para."
 "If two or more Pricing Rules are found based on the above conditions, Priority is applied. Priority is a number between 0 to 20 while default value is zero (blank). Higher number means it will take precedence if there are multiple Pricing Rules with same conditions.","Nëse gjenden dy ose më shumë Rregulla çmimi bazuar në kushtet e mësipërme, zbatohet Prioriteti. Prioriteti është një numër midis 0 dhe 20 ndërsa vlera e paracaktuar është zero (bosh). Numri më i lartë do të thotë se do të ketë përparësi nëse ka rregulla të shumta të çmimeve me të njëjtat kushte."
 "If unlimited expiry for the Loyalty Points, keep the Expiry Duration empty or 0.","Nëse skadimi i pakufizuar për pikët e besnikërisë, mbajeni kohëzgjatjen e skadimit bosh ose 0."
 "If yes, then this warehouse will be used to store rejected materials","Nëse po, atëherë kjo magazinë do të përdoret për të ruajtur materialet e refuzuara"
-"If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.","Nëse po ruani stokun e këtij artikulli në inventarin tuaj, ERPNext do të bëjë një regjistrim në librin e stokut për çdo transaksion të këtij artikulli."
+"If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.","Nëse po ruani stokun e këtij artikulli në inventarin tuaj, AstraXK do të bëjë një regjistrim në librin e stokut për çdo transaksion të këtij artikulli."
 "If you need to reconcile particular transactions against each other, then please select accordingly. If not, all the transactions will be allocated in FIFO order.","Nëse keni nevojë të rakordoni transaksione të veçanta me njëri-tjetrin, atëherë ju lutemi zgjidhni në përputhje me rrethanat. Nëse jo, të gjitha transstoku do të ndahen sipas rendit FIFO."
 "If you still want to proceed, please disable 'Skip Available Sub Assembly Items' checkbox.","Nëse ende dëshironi të vazhdoni, ju lutemi çaktivizoni kutinë e zgjedhjes ""Anashkalo artikujt e disponueshëm nën montim""."
 "If you still want to proceed, please enable {0}.","Nëse ende dëshironi të vazhdoni, ju lutemi aktivizoni {0}."
@@ -8362,7 +8362,7 @@ This Purchase Order has been fully subcontracted.,Ky Urdhër Blerje është nën
 This Sales Order has been fully subcontracted.,Ky Urdhër shitjeje është nënkontraktuar plotësisht.
 This Week's Summary,Përmbledhja e kësaj jave
 This action will stop future billing. Are you sure you want to cancel this subscription?,Ky veprim do të ndalojë faturimin e ardhshëm. Je i sigurt që dëshiron ta anulosh këtë abonim?
-This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,Ky veprim do ta shkëputë këtë llogari nga çdo shërbim i jashtëm që integron ERPNext me llogaritë tuaja bankare. Nuk mund të zhbëhet. A jeni i sigurt?
+This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,Ky veprim do ta shkëputë këtë llogari nga çdo shërbim i jashtëm që integron AstraXK me llogaritë tuaja bankare. Nuk mund të zhbëhet. A jeni i sigurt?
 "This allows creation of sales orders from quotations that have passed their expiration date, providing flexibility in processing orders despite outdated quotes.","Kjo lejon krijimin e porosive të shitjes nga kuotimet që kanë kaluar datën e skadimit, duke ofruar fleksibilitet në përpunimin e porosive pavarësisht kuotave të vjetruara."
 This asset category is marked as non-depreciable. Please disable depreciation calculation or choose a different category.,Kjo kategori aktivesh është shënuar si e pa amortizueshme. Ju lutemi çaktivizoni llogaritjen e amortizimit ose zgjidhni një kategori tjetër.
 This covers all scorecards tied to this Setup,Kjo mbulon të gjitha kartat e rezultateve të lidhura me këtë konfigurim
@@ -9046,7 +9046,7 @@ Voucher Type,Lloji i kuponit
 Voucher {0} is over-allocated by {1},Kuponi {0} shpërndahet nga {1}
 Voucher-wise Balance,Bilanci i kuponit
 Vouchers,Kuponat
-"WARNING: Exotel app has been separated from ERPNext, please install the app to continue using Exotel integration.","PARALAJMËRIM: Aplikacioni Exotel është ndarë nga ERPNext, ju lutemi instaloni aplikacionin për të vazhduar përdorimin e integrimit Exotel."
+"WARNING: Exotel app has been separated from ERPNext, please install the app to continue using Exotel integration.","PARALAJMËRIM: Aplikacioni Exotel është ndarë nga AstraXK, ju lutemi instaloni aplikacionin për të vazhduar përdorimin e integrimit Exotel."
 WIP Composite Asset,Aseti i përbërë WIP
 WIP WH,WIP WH
 WIP Warehouse,Magazina WIP
@@ -9304,7 +9304,7 @@ Zero Rated,Vlerësimi zero
 Zero quantity,Sasia zero
 Zero-Quantity Line Items,Artikujt e linjës me sasi zero
 Zip File,Skedar Zip
-[Important] [ERPNext] Auto Reorder Errors,[E rëndësishme] [ERPNext] Gabime të rirenditjes automatike
+[Important] [ERPNext] Auto Reorder Errors,[E rëndësishme] [AstraXK] Gabime të rirenditjes automatike
 `Allow Negative rates for Items`,"""Lejo tarifat negative për artikujt""."
 after,pas
 and,dhe
