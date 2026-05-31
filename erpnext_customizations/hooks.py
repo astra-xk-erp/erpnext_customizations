@@ -140,13 +140,32 @@ after_migrate = ["erpnext_customizations.setup.remove_help_dropdown"]
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Sales Invoice": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"POS Invoice": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"Quotation": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"Sales Order": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"Delivery Note": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"Purchase Invoice": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"Purchase Order": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	},
+	"Purchase Receipt": {
+		"validate": "erpnext_customizations.taxes.fix_inclusive_tax_rounding"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
