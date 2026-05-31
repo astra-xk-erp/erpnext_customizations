@@ -11,3 +11,27 @@
 .dropdown-menu-item[data-name="help"] {
 	display: none !important;
 }
+
+/* Fix unresponsive scrolling on mobile devices for POS */
+.items-container,
+.customer-transactions,
+.cart-items-section,
+.search-results,
+.item-wrapper {
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior-y: contain !important;
+}
+
+/* Allow the entire POS page to scroll vertically if it exceeds viewport */
+body[data-route="point-of-sale"],
+body[data-route="point-of-sale"] .layout-main-section,
+.point-of-sale-app {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+/* Prevent annoying mobile pull-to-refresh when trying to scroll */
+body[data-route="point-of-sale"] {
+    overscroll-behavior-y: none !important;
+}
