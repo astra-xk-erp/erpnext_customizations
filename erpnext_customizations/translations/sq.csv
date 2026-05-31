@@ -2537,7 +2537,7 @@ Checking this will hide custom doctypes and reports cards in Links section,"Kont
 Checking this will publish the page on your website and it'll be visible to everyone.,Kontrollimi i kësaj do të publikojë faqen në faqen tuaj të internetit dhe ajo do të jetë e dukshme për të gjithë.
 Checking this will round off the tax amount to the nearest integer,Kontrollimi i kësaj do të rrumbullakos shumën e taksës në numrin e plotë më të afërt
 Checking this will show a text area where you can write custom javascript that will run on this page.,Kontrollimi i kësaj do të tregojë një zonë teksti ku mund të shkruani javascript të personalizuar që do të funksionojë në këtë faqe.
-Checkout,Përfundimi
+Checkout,Përfundo
 Checkout Order / Submit Order / New Order,Porosi në arkë / Dërgo porosinë / Porosinë e re
 Cheque,Kontrollo
 Cheque Date,Kontrolloni datën
@@ -5834,7 +5834,7 @@ Government,Qeveria
 Grace Period,Periudha e mospagimit
 Grade,notë
 Graduate,I diplomuar
-Grand Total,Totali i Madh
+Grand Total,Totali
 Grand Total (Company Currency,Totali i Madh (Manedha e Kompanisë
 Grand Total (Company Currency),Totali i madh (monedha e kompanisë)
 Grand Total (Transaction Currency),Totali i madh (monedha e transaksionit)
@@ -12894,7 +12894,7 @@ Shipping Zipcode,Kodi Postar i Transportit
 Shipping rule not applicable for country {0} in Shipping Address,Rregulli i transportit nuk zbatohet për shtetin {0} në adresën e transportit
 Shipping rule only applicable for Buying,Rregulli i transportit zbatohet vetëm për blerje
 Shipping rule only applicable for Selling,Rregulli i transportit zbatohet vetëm për shitje
-Shopping Cart,Karroca e blerjeve
+Shopping Cart,Shporta e artikujve
 Short Name,Emër i shkurtër
 Short Term Loan Account,Llogaria e huasë afatshkurtër
 Short biography for website and other publications.,Biografi e shkurtër për faqen e internetit dhe botime të tjera.
