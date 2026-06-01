@@ -44,7 +44,7 @@ app_include_css = "/assets/erpnext_customizations/css/custom_style.css"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"POS Invoice" : "public/js/pos_invoice.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -203,10 +203,11 @@ doc_events = {
 
 # Overriding Methods
 # ------------------------------
-#
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "erpnext_customizations.event.get_events"
-# }
+
+override_whitelisted_methods = {
+	"erpnext.accounts.doctype.sales_invoice.sales_invoice.get_loyalty_programs": "erpnext_customizations.pos_overrides.get_loyalty_programs",
+	"erpnext.accounts.doctype.pos_invoice.pos_invoice.get_stock_availability": "erpnext_customizations.pos_overrides.get_stock_availability",
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
