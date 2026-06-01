@@ -93,8 +93,6 @@ ${values.doctype_name} has been added to queue for optimization,${values.doctype
 0 - too guessable: risky password.|||<br>|||1 - very guessable: protection from throttled online attacks. |||<br>|||2 - somewhat guessable: protection from unthrottled online attacks.|||<br>|||3 - safely unguessable: moderate protection from offline slow-hash scenario.|||<br>|||4 - very unguessable: strong protection from offline slow-hash scenario.,0 - shumë i hamendshëm: fjalëkalim i rrezikshëm.|||<br>|||1 - shumë i hamendshëm: mbrojtje nga sulmet e mbytura në internet. |||<br>|||2 - disi e paramendueshme: mbrojtje nga sulmet e pashfrytëzuara në internet.|||<br>|||3 - e paparashikueshme në mënyrë të sigurt: mbrojtje e moderuar nga skenari i ngadaltë i hash-it jashtë linje.|||<br>|||4 - shumë i paparashikueshëm: mbrojtje e fortë nga skenari i ngadaltë i hash-it jashtë linje.
 0 is highest,0 është më e larta
 0-30 Days,0-30 ditë
-06cf,06 krh
-0cfb,0 cfb
 1 = True & 0 = False,1 = E vërtetë dhe 0 = E gabuar
 1 Currency = [?] Fraction|||For e.g. 1 USD = 100 Cent,1 Monedha = [?] Fraksion|||Për p.sh. 1 USD = 100 Cent
 1 Day,1 dite
@@ -119,7 +117,6 @@ ${values.doctype_name} has been added to queue for optimization,${values.doctype
 2 months ago,2 muaj më parë
 2 weeks ago,2 javë më parë
 2 years ago,2 vjet më parë
-23cb,23 cb
 3 Yearly,3 vjetore
 3 minutes ago,3 minuta më parë
 30 - 60 Days,30-60 ditë
@@ -134,10 +131,8 @@ ${values.doctype_name} has been added to queue for optimization,${values.doctype
 6 hrs,6 ore
 60 - 90 Days,60-90 ditë
 60-90 Days,60-90 ditë
-8bbf,8 bbf
 90 - 120 Days,90 - 120 ditë
 90 Above,90 më lart
-94ca,94 ca
 "<a href=""https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication"" target=""_blank"">|||  Click here to learn about token-based authentication|||</a>","<a href=""https://docs.frappe.io/framework/user/en/api/rest#1-token-based-authentication"" target=""_blank"">|||  Klikoni këtu për të mësuar rreth vërtetimit të bazuar në token|||</a>"
 <b>Base</b> amount has not been set for the following employee(s): {0},Shuma <b>bazë</b> nuk është caktuar për punonjësit(ët) e mëposhtëm: {0}
 "<b>Cannot create asset.</b><br><br>You're trying to create <b>{0} asset(s)</b> from {2} {3}.<br>However, only <b>{1} item(s)</b> were purchased and <b>{4} asset(s)</b> already exist against {5}.","<b>Nuk mund të krijohet aset.</b><br><br>Po përpiqesh të krijosh <b>{0} asete</b> nga {2} {3}.<br>Megjithatë, vetëm <b>{1} artikuj</b> janë blerë dhe <b>{4} asete</b> ekzistojnë tashmë kundrejt {5}."
@@ -229,22 +224,6 @@ A third party distributor / dealer / commission agent / affiliate / reseller who
 A version identifier string for the client software.|||<br>|||The value of the should change on any update of the client software with the same Software ID.,Një varg identifikues versioni për softuerin e klientit.|||<br>|||Vlera e duhet të ndryshojë në çdo përditësim të softuerit të klientit me të njëjtin ID të softuerit.
 A word by itself is easy to guess.,Një fjalë në vetvete është e lehtë të hamendësohet.
 A {0} exists between {1} and {2} (,Një {0} ekziston midis {1} dhe {2} (
-ACC-ADS-.YYYY.-,ACC-ADS-.VVVVV.-
-ACC-AML-.YYYY.-,ACC-AML-.VVVVV.-
-ACC-ASA-.YYYY.-,ACC-ASA-.VVVVV.-
-ACC-ASC-.YYYY.-,ACC-ASC-.VVVVV.-
-ACC-ASR-.YYYY.-,ACC-ASR-.VVVVV.-
-ACC-ASS-.YYYY.-,ACC-ASS-.VVVVV.-
-ACC-BTN-.YYYY.-,ACC-BTN-.VVVVV.-
-ACC-JV-.YYYY.-,ACC-JV-.VVVVV.-
-ACC-PAY-.YYYY.-,ACC-PAY-.VVVVV.-
-ACC-PINV-.YYYY.-,ACC-PINV-.VVVVV.-
-ACC-PINV-RET-.YYYY.-,ACC-PINV-RET-.VVVV.-
-ACC-PRQ-.YYYY.-,ACC-PRQ-.VVVVV.-
-ACC-PSINV-.YYYY.-,ACC-PSINV-.VVVV.-
-ACC-SH-.YYYY.-,ACC-SH-.VVVVV.-
-ACC-SINV-.YYYY.-,ACC-SINV-.VVVV.-
-ACC-SINV-RET-.YYYY.-,ACC-SINV-RET-.VVVV.-
 ALL,TE GJITHA
 ALL records will be deleted (entire DocType cleared),TË GJITHA regjistrimet do të fshihen (i gjithë DocType pastrohet)
 AMC Expiry (Serial),Skadimi i AMC (Seriali)
@@ -6986,7 +6965,7 @@ Item Attribute Values,Vlerat e atributeve të artikullit
 Item Attributes,Atributet e artikullit
 Item Balance (Simple),Bilanci i artikullit (i thjeshtë)
 Item Barcode,Barkodi i artikullit
-Item Cart,Karroca e artikullit
+Item Cart,Shporta e artikujve
 Item Code,Kodi i artikullit
 Item Code (Final Product),Kodi i artikullit (produkti përfundimtar)
 Item Code > Item Group > Brand,Kodi i artikullit > Grupi i artikujve > Marka
